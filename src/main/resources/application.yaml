@@ -6,8 +6,11 @@ spring:
     name: personal_portfolio_backend_java_spring
   data:
     mongodb:
-      uri: mongodb+srv://chaybon894:XBLLv9B8KpQE8doU@portfolio.j6c4qwc.mongodb.net/portfolio_db
+      host: localhost
+      port: 27017
+      database: portfolio_db
 
+# CORS Configuration
 cors:
   allowed-origins: http://localhost:3000
   allowed-methods: GET,POST,PUT,DELETE
