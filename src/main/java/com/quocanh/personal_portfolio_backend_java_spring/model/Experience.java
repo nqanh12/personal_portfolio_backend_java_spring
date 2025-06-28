@@ -5,6 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @Document(collection = "experiences")
@@ -15,5 +16,5 @@ public class Experience {
     private String company;
     private LocalDate startDate;
     private LocalDate endDate;
-    private String description;
+    private List<String> description;
 }

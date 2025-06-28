@@ -12,9 +12,9 @@ public class Project {
     @Id
     private String id;
     private String name;
-    private String description;
+    private List<String> description;
     private List<String> techStack;
     private String githubLink;
     private String demoLink;
-    private String thumbnailImage;
+    private List<String> images;
 }

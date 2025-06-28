@@ -1,7 +1,6 @@
 package com.quocanh.personal_portfolio_backend_java_spring.dto;
 
 import lombok.Data;
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import java.util.Map;
@@ -18,10 +17,16 @@ public class PersonalInfoDTO {
 
     private String bio;
 
+    private String location;
+
+    private String cvUrl;
+
     @Email(message = "Invalid email format")
     private String email;
 
     private String phone;
+
     private String profileImageUrl;
+
     private Map<String, String> socialLinks;
 }

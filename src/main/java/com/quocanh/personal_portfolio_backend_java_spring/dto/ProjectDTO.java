@@ -12,11 +12,10 @@ public class ProjectDTO {
     @NotBlank(message = "Project name is required")
     private String name;
 
-    @NotBlank(message = "Project description is required")
-    private String description;
+    private List<String> description;
 
     private List<String> techStack;
     private String githubLink;
     private String demoLink;
-    private String thumbnailImage;
+    private List<String> images;
 } 

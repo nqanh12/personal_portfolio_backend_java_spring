@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 public class ExperienceDTO {
@@ -20,5 +21,5 @@ public class ExperienceDTO {
     private LocalDate startDate;
 
     private LocalDate endDate;
-    private String description;
+    private List<String> description;
 } 

@@ -13,6 +13,8 @@ public class PersonalInfo {
     private String fullName;
     private String title;
     private String bio;
+    private String location;
+    private String cvUrl;
     private String email;
     private String phone;
     private String profileImageUrl;
