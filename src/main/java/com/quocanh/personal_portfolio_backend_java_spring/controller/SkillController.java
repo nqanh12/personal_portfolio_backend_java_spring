@@ -79,8 +79,9 @@ public class SkillController {
         Skill skill = new Skill();
         skill.setId(dto.getId());
         skill.setName(dto.getName());
+        skill.setIconUrl(dto.getIconUrl());
         skill.setType(dto.getType());
         skill.setLevel(dto.getLevel());
         return skill;
     }
-} 
+}

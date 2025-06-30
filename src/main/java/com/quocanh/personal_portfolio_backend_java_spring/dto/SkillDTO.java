@@ -13,9 +13,12 @@ public class SkillDTO {
     @NotBlank(message = "Skill name is required")
     private String name;
 
+    @NotBlank(message = "Skill icon is required")
+    private String iconUrl;
+
     @NotNull(message = "Skill type is required")
     private SkillType type;
 
     @NotNull(message = "Skill level is required")
     private SkillLevel level;
-} 
+}

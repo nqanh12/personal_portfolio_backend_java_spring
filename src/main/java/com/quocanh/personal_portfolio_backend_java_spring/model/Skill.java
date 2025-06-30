@@ -12,6 +12,7 @@ public class Skill {
     @Id
     private String id;
     private String name;
+    private String iconUrl;
     private SkillType type;
     private SkillLevel level;
 }
